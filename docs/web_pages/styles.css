@@ -24,9 +24,6 @@ body {
   margin-bottom: 30px;
 }
 
-.navbar li {
-}
-
 .navbar a {
   color: #ecf0f1;
   text-decoration: none;
@@ -40,7 +37,6 @@ body {
 .navbar a:hover,
 .navbar a:focus {
   background-color: #34495e;
-  outline: none;
 }
 
 article {
@@ -72,6 +68,15 @@ p {
   font-size: 1.1em;
 }
 
+article p:first-of-type {
+  font-style: italic;
+  color: #555;
+  background-color: #eef6fb;
+  padding: 10px;
+  border-left: 4px solid #2980b9;
+  border-radius: 4px;
+}
+
 a {
   color: #2980b9;
   text-decoration: underline;
@@ -80,12 +85,11 @@ a {
 a:hover,
 a:focus {
   color: #1c5980;
-  outline: none;
 }
 
 figure {
   margin: 20px 0;
-  text-align: center; 
+  text-align: center;
 }
 
 figure img {
@@ -102,9 +106,9 @@ figcaption {
   font-size: 0.9em;
   color: #7f8c8d;
   margin-top: 8px;
-  max-width: fit-content;  
+  max-width: fit-content;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 ul {
