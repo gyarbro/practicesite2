@@ -1,28 +1,28 @@
 /* styles.css */
 body {
-  font-family: Arial, sans-serif;  /* This changes the font style */
-  background-color: #f8f8f8;       /* This sets the background color */
-  color: #333;                     /* This sets the text color */
-  margin: 0;                       /* Removes default space around the page */
-  padding: 0;                      /* Removes default padding */
+  font-family: Arial, sans-serif; 
+  background-color: #f8f8f8;       
+  color: #333;                     
+  margin: 0;                     
+  padding: 0;                      
 }
 
 .navbar {
-  background-color: #004080;       /* Makes the menu bar blue */
-  padding: 10px;                   /* Adds space inside the menu */
-  list-style-type: none;           /* Removes the bullet points */
+  background-color: #004080;       
+  padding: 10px;                  
+  list-style-type: none;          
 }
 
 .navbar li {
-  display: inline;                 /* Shows menu items side by side */
-  margin-right: 15px;              /* Adds space between menu items */
+  display: inline;                 
+  margin-right: 15px;              
 }
 
 .navbar a {
-  color: white;                   /* Makes menu links white */
-  text-decoration: none;          /* Removes underlines from links */
+  color: white;                  
+  text-decoration: none;       
 }
 
 .navbar a:hover {
-  text-decoration: underline;     /* Adds underline when you hover over links */
+  text-decoration: underline; 
 }
