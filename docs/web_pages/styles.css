@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;  /* This changes the font style */
+  background-color: #f8f8f8;       /* This sets the background color */
+  color: #333;                     /* This sets the text color */
+  margin: 0;                       /* Removes default space around the page */
+  padding: 0;                      /* Removes default padding */
+}
+
+.navbar {
+  background-color: #004080;       /* Makes the menu bar blue */
+  padding: 10px;                   /* Adds space inside the menu */
+  list-style-type: none;           /* Removes the bullet points */
+}
+
+.navbar li {
+  display: inline;                 /* Shows menu items side by side */
+  margin-right: 15px;              /* Adds space between menu items */
+}
+
+.navbar a {
+  color: white;                   /* Makes menu links white */
+  text-decoration: none;          /* Removes underlines from links */
+}
+
+.navbar a:hover {
+  text-decoration: underline;     /* Adds underline when you hover over links */
+}
